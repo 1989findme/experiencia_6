@@ -1,0 +1,277 @@
+  body
+  {
+    margin: 0px;
+    font-family: arial;
+    font-size: 14px;
+}
+
+.box
+{
+    height: 1000px;
+    padding: 0px 100px 80px 100px;
+    background-color: #DCDCDC;
+}
+
+.imagen
+{
+    width:150px;
+    border-radius: 100px;
+    position: relative;
+}
+
+.centrar_imagen
+{
+    text-align: center;
+    height: 80px;
+}
+
+.row
+{
+    background-color: white;
+    height: 850px;
+}
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5,
+.col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10
+{
+    float: left;
+}
+.col-md-1
+{
+    width: 10%;
+}
+.col-md-2
+{
+    width: 20%;
+}
+.col-md-3
+{
+    width: 30%;
+}
+.col-md-4
+{
+    width: 40%;
+}
+.col-md-5
+{
+    width: 50%;
+}
+.col-md-6
+{
+    width: 60%;
+}
+.col-md-7
+{
+    width: 70%;
+}
+.col-md-8
+{
+    width: 80%;
+}
+.col-md-9
+{
+    width: 90%;
+}
+.col-md-10
+{
+    width: 100%;
+}
+
+.col-md-offset-1{
+    margin-left:10%;
+}
+.col-md-offset-2{
+    margin-left:20%;
+}
+.col-md-offset-3{
+    margin-left:30%;
+}
+.col-md-offset-4{
+    margin-left:40%;
+}
+.col-md-offset-5{
+    margin-left:50%;
+}
+.col-md-offset-6{
+    margin-left:60%;
+}
+.col-md-offset-7{
+    margin-left:70%;
+}
+.col-md-offset-8{
+    margin-left:80%;
+}
+.col-md-offset-9{
+    margin-left:90%;
+}
+
+.mitad_izquierda
+{
+    padding: 20px;
+    clear: both;
+    box-sizing: border-box;
+}
+
+.col-md-4
+{
+
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+h1
+{
+    padding-top: 100px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-bottom:solid;
+    border-color: #DCDCDC;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.orange
+{
+    color: #ff6600;
+}
+
+.cuerpo_acercade
+{
+    text-align: justify;
+}
+
+.mitad_derecha
+{
+    padding: 20px;
+}
+
+h2{
+    color: #ff6600;
+    margin: 0px;
+}
+
+.educacion
+{
+  clear: left;
+}
+
+.fecha_educacion
+{
+}
+.cuerpo_educacion
+{
+background-color: #DCDCDC;
+box-sizing: border-box;
+padding: 5px;
+text-align: justify;
+}
+
+.born
+{
+    font-weight: bold;
+    margin: 0px;
+}
+.google
+{
+    font-weight:bold;
+    margin: 0px;
+}
+
+.fecha
+{
+    color: grey;
+    margin: 0px;
+}
+
+.cargo
+{
+    font-weight:bold;
+    margin: 0px;
+}
+
+.cuerpo_cargo
+{
+    margin: 0px;
+    text-align: justify;
+}
+
+.ul
+{
+    text-align: left;
+}
+.contacto_ol
+{
+    text-align: left;
+    padding: 0px;
+}
+
+.negrita
+{
+font-weight:bold;
+}
+
+.programas .programa
+{
+background-color: #ff6600;
+clear: left;
+color: white;
+margin: 2px;
+font-weight:bold;
+}
+
+.programa p
+{
+margin: 0px;
+}
+
+.IDIOMAS
+{
+clear: left;
+}
+.idioma
+{
+    border-bottom: solid;
+    border-bottom-color: #DCDCDC;
+    border-bottom-width: 1px;
+}
+
+.recuadro_idiomas .idioma
+{
+    clear: left;
+}
+
+.estrellas_float
+{
+    float: right;
+
+}
+
+.estrellas
+{
+float: right;
+}
+
+.HOBBIES
+{
+clear: left;
+}
+
+.p_hobbies
+{
+    float: left;
+    padding-right: 10px;
+    background-color: #9400D3;
+    margin-right: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.linea
+
+{
+    border-bottom: solid;
+    position: relative;
+    top:600px;
+    border-bottom-color: #DCDCDC;
+    border-bottom-width: 1px;
+}
