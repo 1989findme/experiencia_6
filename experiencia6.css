@@ -1,5 +1,5 @@
-  body
-  {
+body
+{
     margin: 0px;
     font-family: arial;
     font-size: 14px;
@@ -17,6 +17,9 @@
     width:150px;
     border-radius: 100px;
     position: relative;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #DCDCDC;
 }
 
 .centrar_imagen
@@ -77,31 +80,40 @@
     width: 100%;
 }
 
-.col-md-offset-1{
+.col-md-offset-1
+{
     margin-left:10%;
 }
-.col-md-offset-2{
+.col-md-offset-2
+{
     margin-left:20%;
 }
-.col-md-offset-3{
+.col-md-offset-3
+{
     margin-left:30%;
 }
-.col-md-offset-4{
+.col-md-offset-4
+{
     margin-left:40%;
 }
-.col-md-offset-5{
+.col-md-offset-5
+{
     margin-left:50%;
 }
-.col-md-offset-6{
+.col-md-offset-6
+{
     margin-left:60%;
 }
-.col-md-offset-7{
+.col-md-offset-7
+{
     margin-left:70%;
 }
-.col-md-offset-8{
+.col-md-offset-8
+{
     margin-left:80%;
 }
-.col-md-offset-9{
+.col-md-offset-9
+{
     margin-left:90%;
 }
 
@@ -112,10 +124,9 @@
     box-sizing: border-box;
 }
 
-.col-md-4
+.mitad_derecha
 {
-
-    padding-left: 10px;
+    padding: 20px;
     box-sizing: border-box;
 }
 
@@ -140,12 +151,8 @@ h1
     text-align: justify;
 }
 
-.mitad_derecha
+h2
 {
-    padding: 20px;
-}
-
-h2{
     color: #ff6600;
     margin: 0px;
 }
@@ -155,21 +162,30 @@ h2{
   clear: left;
 }
 
-.fecha_educacion
-{
-}
 .cuerpo_educacion
 {
-background-color: #DCDCDC;
-box-sizing: border-box;
-padding: 5px;
-text-align: justify;
+    background-color: #DCDCDC;
+    box-sizing: border-box;
+    padding: 5px;
+    text-align: justify;
+    margin-top: 12px;
+    margin-bottom: 5px;
 }
 
 .born
 {
     font-weight: bold;
     margin: 0px;
+}
+
+.experiencia
+{
+    margin: 5px;
+}
+
+.born_cuerpo
+{
+    margin: 3px;
 }
 .google
 {
@@ -191,7 +207,7 @@ text-align: justify;
 
 .cuerpo_cargo
 {
-    margin: 0px;
+    margin: 5px;
     text-align: justify;
 }
 
@@ -207,27 +223,33 @@ text-align: justify;
 
 .negrita
 {
-font-weight:bold;
+    font-weight:bold;
+}
+
+.skills
+{
+    margin: 5px;
 }
 
 .programas .programa
 {
-background-color: #ff6600;
-clear: left;
-color: white;
-margin: 2px;
-font-weight:bold;
+    background-color: #ff6600;
+    clear: left;
+    color: white;
+    margin-bottom: 10px;
+    font-weight:bold;
 }
 
 .programa p
 {
-margin: 0px;
+    margin: 0px;
 }
 
 .IDIOMAS
 {
-clear: left;
+    clear: left;
 }
+
 .idioma
 {
     border-bottom: solid;
@@ -243,17 +265,16 @@ clear: left;
 .estrellas_float
 {
     float: right;
-
 }
 
 .estrellas
 {
-float: right;
+    float: right;
 }
 
 .HOBBIES
 {
-clear: left;
+    clear: left;
 }
 
 .p_hobbies
@@ -267,11 +288,10 @@ clear: left;
 }
 
 .linea
-
 {
     border-bottom: solid;
     position: relative;
-    top:600px;
+    top:670px;
     border-bottom-color: #DCDCDC;
     border-bottom-width: 1px;
 }
